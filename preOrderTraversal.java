@@ -10,16 +10,15 @@ class Node{
         left = right = null;
     }
 }
-
 //main code
 class PreOrderTraversal {
     public void preOrder(Node root) {
         if (root == null) {
             return;
         }
-        System.out.print(root.data + " "); // Visit root
-        preOrder(root.left);                 // Visit left subtree
-        preOrder(root.right);                // Visit right subtree
+        System.out.print(root.data + " "); 
+        preOrder(root.left);                 
+        preOrder(root.right);                
     }
 
     public static void main(String[] args) {
