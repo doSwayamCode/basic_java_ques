@@ -4,7 +4,7 @@ class SumOfNaturalNum {
     public static void main(String[] args) {
         int n = 5; 
         int sum = sumOfNaturalNumbers(n);
-        System.out.println("Sum of natural numbers is " + n + sum);
+        System.out.println("Sum of natural numbers " + n + sum);
     }
 
 
